@@ -46,6 +46,18 @@ namespace MyApp
         // in ra màn hình
         public void InRa_ManHinh()
         {
+            /*
+                cái biến tham chiếu this
+                nó có thể trông như thế này
+                
+                tôi đã comment code lại
+                tôi chỉ viết vậy để bạn cũng có thể
+                cảm nhận ra câu hỏi "this" là gì
+            */
+            // Program doi_tuong = new Program();
+            // Program this = doi_tuong;
+
+
             // thay vì phải tạo 1 đối tượng
             // rồi gọi thuộc tính thong_bao
             // thì ta chỉ cần viết this.thong_bao
